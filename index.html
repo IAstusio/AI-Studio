@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моят Уебсайт</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Моят Уебсайт</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Начало</a></li>
+                <li><a href="#video">Видео</a></li>
+                <li><a href="#photos">Снимки</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <h2>Добре дошли!</h2>
+        <p>Това е моят стилен и модерен уебсайт.</p>
+    </section>
+
+    <section id="video" class="section">
+        <h2>🎥 Видео Секция</h2>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="photos" class="section">
+        <h2>📸 Фото Секция</h2>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/300" alt="Снимка 1">
+            <img src="https://via.placeholder.com/300" alt="Снимка 2">
+            <img src="https://via.placeholder.com/300" alt="Снимка 3">
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>📩 Контакти</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Вашето име" required>
+            <input type="email" name="email" placeholder="Вашият имейл" required>
+            <textarea name="message" placeholder="Вашето съобщение" required></textarea>
+            <button type="submit">Изпрати</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Всички права запазени.</p>
+    </footer>
+
+</body>
+</html>
